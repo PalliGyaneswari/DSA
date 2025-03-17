@@ -3,7 +3,6 @@ class Solution:
         if not matrix or not matrix[0]:
             return False
         
-        # Start from the top-right corner
         row, col = 0, len(matrix[0]) - 1
         
         while row < len(matrix) and col >= 0:
@@ -11,8 +10,8 @@ class Solution:
             if current == target:
                 return True
             elif current < target:
-                row += 1  # Move down
+                row += 1 
             else:
-                col -= 1  # Move left
+                col -= 1  
         
         return False
