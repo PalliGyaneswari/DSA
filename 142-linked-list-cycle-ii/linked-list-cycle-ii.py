@@ -19,6 +19,6 @@ class Solution:
         while h1!=h2:
             h1=h1.next
             h2=h2.next
-        return h1
+        return h2
 
         
