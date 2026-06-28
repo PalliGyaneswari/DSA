@@ -6,3 +6,4 @@ class Solution:
                 s+=1
                 nums[s]=nums[f]
         return s+1
+        
